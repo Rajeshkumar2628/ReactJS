@@ -1,0 +1,35 @@
+.primary{
+    color: red;
+}
+
+.secondary{
+    color: green;
+}
+
+.font-xl{
+    font-size: 60px;
+}
+table,th,tr,td{
+    border: 2px solid black;
+}
+
+.form-1{
+    /* background-color: aquamarine; */
+    padding-left: 10px;
+    width: 20%;
+    height: 30%;
+    margin: 20px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+}
+
+input{
+    padding: 5px;
+}
+
+table{
+    width: 100%;
+}

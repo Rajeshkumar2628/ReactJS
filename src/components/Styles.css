@@ -1,0 +1,14 @@
+.container{
+    height: 20px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.progressbar{
+    background-color: darkgreen;
+    height: 100%;
+    transition: width 1s linear;
+}
