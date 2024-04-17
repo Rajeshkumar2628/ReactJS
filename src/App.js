@@ -1,8 +1,8 @@
 // import React, { useReducer } from 'react';
 import './App.css';
-import Parent from './components/Parent';
-import UseMemo from './components/UseMemo';
-import UseREF from './components/UseREF';
+// import Parent from './components/Parent';
+// import UseMemo from './components/UseMemo';
+// import UseREF from './components/UseREF';
 import UseREF1 from './components/UseREF1';
 // import C from './components/C';
 // import CRUD from './components/CRUD';
