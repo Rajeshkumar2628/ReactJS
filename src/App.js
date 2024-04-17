@@ -1,9 +1,10 @@
 // import React, { useReducer } from 'react';
 import './App.css';
+import Task8 from './components/Task8';
 // import Parent from './components/Parent';
 // import UseMemo from './components/UseMemo';
 // import UseREF from './components/UseREF';
-import UseREF1 from './components/UseREF1';
+// import UseREF1 from './components/UseREF1';
 // import C from './components/C';
 // import CRUD from './components/CRUD';
 // import HTTP from './components/HTTP';
@@ -129,7 +130,8 @@ function App() {
       {/* <Parent/> */}
       {/* <UseMemo/> */}
       {/* <UseREF/> */}
-      <UseREF1/>
+      {/* <UseREF1/> */}
+      <Task8/>
     </div>
   );
 }
