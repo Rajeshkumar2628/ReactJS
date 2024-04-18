@@ -1,5 +1,10 @@
 // import React, { useReducer } from 'react';
 import './App.css';
+import Click1 from './components/Click1';
+import Click2 from './components/Click2';
+import Counter1 from './components/Counter1';
+import Counter2 from './components/Counter2';
+import Input from './components/Input';
 import Task8 from './components/Task8';
 // import Parent from './components/Parent';
 // import UseMemo from './components/UseMemo';
@@ -131,7 +136,12 @@ function App() {
       {/* <UseMemo/> */}
       {/* <UseREF/> */}
       {/* <UseREF1/> */}
-      <Task8/>
+      {/* <Task8/> */}
+      {/* <Click1/>
+      <Click2/> */}
+      {/* <Counter1/>
+      <Counter2/> */}
+      <Input/>
     </div>
   );
 }
