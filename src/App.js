@@ -1,11 +1,16 @@
 // import React, { useReducer } from 'react';
 import './App.css';
-import Click1 from './components/Click1';
-import Click2 from './components/Click2';
-import Counter1 from './components/Counter1';
-import Counter2 from './components/Counter2';
-import Input from './components/Input';
-import Task8 from './components/Task8';
+import Counter1Hoc from './components/Counter1Hoc';
+import Counter2Hoc from './components/Counter2Hoc';
+// import ErrorBoundary from './components/ErrorBoundary';
+// import Product from './components/Product';
+// import Click1 from './components/Click1';
+// import Click2 from './components/Click2';
+// import Counter1 from './components/Counter1';
+// import Counter2 from './components/Counter2';
+// import Input from './components/Input';
+// import Portal from './components/Portal';
+// import Task8 from './components/Task8';
 // import Parent from './components/Parent';
 // import UseMemo from './components/UseMemo';
 // import UseREF from './components/UseREF';
@@ -74,6 +79,22 @@ function App() {
       // const[count,dispatch]=useReducer(reducer,initialState)
   return (
     <div className="App">
+      <Counter1Hoc name="Adam"/>
+      <Counter2Hoc/>
+      {/* <ErrorBoundary>
+      <Product name='Iphone'/>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Product name='OnePlus'/>
+      </ErrorBoundary><ErrorBoundary>
+      <Product name='Samsung'/>
+      </ErrorBoundary> */}
+
+
+
+    {/* <Portal/> */}
+
+
       {/* {count}
       <CounterContext.Provider value={{count:count,dispatch:dispatch}}>
         <AA/>
@@ -141,7 +162,7 @@ function App() {
       <Click2/> */}
       {/* <Counter1/>
       <Counter2/> */}
-      <Input/>
+      {/* <Input/> */}
     </div>
   );
 }
