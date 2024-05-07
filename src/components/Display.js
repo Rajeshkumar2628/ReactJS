@@ -4,7 +4,7 @@ function Display(props) {
     console.log(`Age Hello from ${props.name}`)
   return (
     <div>
-      {props.name} ----- {props.display}
+      {props.name} {props.children}----- {props.display}
     </div>
   )
 }

@@ -15,7 +15,9 @@ function Parent() {
   return (
     <div>
       <Title/>
-      <Display name="Age" display={age} />
+      <Display name="Age" display={age} >
+        <button>rajesh</button>
+      </Display>
       <Button name="Age" handleClick={handleAge} />
       <Display name="Salary" display={salary} />
       <Button name="Salary" handleClick={handleIncrement} />

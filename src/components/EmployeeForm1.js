@@ -28,7 +28,7 @@ export default function EmployeeForm1() {
                 <button onClick={() => setCurrent('Read')}>Read</button>
             </div>
 
-            {current == "Create" && (
+            {current === "Create" && (
                 <form onSubmit={handleSubmit}>
                     <h1>Add Emploee</h1>
                     <br /><br />
@@ -49,7 +49,7 @@ export default function EmployeeForm1() {
 
 
       
-      {current == "Read" && (
+      {current === "Read" && (
       
       <table>
         <thead>

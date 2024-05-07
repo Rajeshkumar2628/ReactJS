@@ -1,7 +1,16 @@
 // import React, { useReducer } from 'react';
 import './App.css';
-import Counter1Hoc from './components/Counter1Hoc';
-import Counter2Hoc from './components/Counter2Hoc';
+import CurrencyConversion from './components/CurrencyConversion';
+import Hello from './components/Hello';
+import Test2 from './components/Test2';
+import Timer from './components/Timer';
+import TodoTest from './components/TodoTest';
+// import CounterFunction from './components/CounterFunction';
+// import CounterOne from './components/CounterOne';
+// import CounterTwo from './components/CounterTwo';
+// import Form1 from './components/Form1';
+// import Counter1Hoc from './components/Counter1Hoc';
+// import Counter2Hoc from './components/Counter2Hoc';
 // import ErrorBoundary from './components/ErrorBoundary';
 // import Product from './components/Product';
 // import Click1 from './components/Click1';
@@ -79,8 +88,38 @@ function App() {
       // const[count,dispatch]=useReducer(reducer,initialState)
   return (
     <div className="App">
-      <Counter1Hoc name="Adam"/>
-      <Counter2Hoc/>
+      {/* <Test2/> */}
+      {/* <CurrencyConversion/> */}
+      {/* <Timer/> */}
+      <TodoTest/>
+
+
+
+
+
+
+      {/* <CounterFunction render={(count, handleInc)=>(
+        <CounterOne count={count} handleInc={handleInc}/>)
+      }/>
+      <CounterFunction render={(count, handleInc)=>(
+        <CounterTwo count={count} handleInc={handleInc}/>
+      )}/>
+      <Form1/> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {/* <Counter1Hoc name="Adam"/>
+      <Counter2Hoc/> */}
       {/* <ErrorBoundary>
       <Product name='Iphone'/>
       </ErrorBoundary>
